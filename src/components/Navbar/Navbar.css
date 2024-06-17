@@ -1,0 +1,13 @@
+/* Navbar Responsive Styles */
+
+@media (max-width: 768px) {
+    .nav-container { /* Your navbar container class */
+      flex-direction: column;
+    }
+    .logo {
+      width: 50%;
+    }
+  }
+  
+  /* Other CSS styles for your project */
+  

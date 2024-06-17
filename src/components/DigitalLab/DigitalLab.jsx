@@ -7,11 +7,10 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import "./DigitalLab.css";
-import { height } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 const DigitalLab = () => {
   return (
-    <div className="max-w-screen-xl flex items-center justify-between mx-auto py-8 sm:px-6 lg:px-2">
+    <div className="max-w-screen-xl flex items-center justify-between mx-auto py-4 sm:px-6 lg:px-2">
       {/* Vertical Navbar */}
       <div className="w-1/12">
         <ul className="flex-col font-medium">
@@ -57,26 +56,25 @@ const DigitalLab = () => {
 
         {/* Second line */}
         <div className="mb-4">
-          <p className="text-8xl font-bold gradient-text">
+          <p className="xl:min-h-[15rem] lg:min-h-[10rem] md:min-h-[18rem] min-h-[8rem] xl:text-8xl sm:text-7xl xs:text-6xl text-3xl font-bold gradient-text">
             Hai mai visto un Laboratorio Digitale?
           </p>
         </div>
 
         {/* Third line */}
-        <div className="flex space-x-4 justify-center items-center">
-          <div className="w-1/4"></div>
+        <div className="flex space-x-5 justify-center items-center">
+          <div className="lg:w-1/4"></div>
           {/* Line */}
-          <div className="w-1/2">
-            <p className="text-white">
+          <div className="lg:w-3/4 w-1/2">
+            <p className="text-white text-lg">
               {" "}
               Uno spazio dedicato and anticipare com le nuove tecnologie
               impattano sui brand e li modo in cui interagiamo can loro
             </p>
           </div>
-          <div className="w-1/8"></div>
-          <div className="w-1/8 justify-center items-center">
+          <div className="lg:w-1/8 w-1/8 justify-center items-center">
             {/* Image */}
-            <img src="../public/images/OblyLogo.png" alt="Scroll Down" />
+            <img className="lg:h-25 md:h-25 h-15" src="images/ScrollDown.png" alt="Scroll Down" />
           </div>
         </div>
       </div>
