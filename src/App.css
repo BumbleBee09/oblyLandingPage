@@ -4,3 +4,8 @@
   width: 100%;
   background-size: cover;
 }
+
+.bg-custom-gradient2 {
+  background: linear-gradient(to right,#29102f,#201733, #0c212a);
+}
+

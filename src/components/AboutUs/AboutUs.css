@@ -1,0 +1,15 @@
+.bg-gradient-button {
+    background: linear-gradient(to right, #3cc3fc, #9155d3, #eb1769);
+  }
+
+  .gradient-text {
+    background-image: linear-gradient(to right, #3cc3fc, #9155d3, #eb1769);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  
+  
+  
+  
