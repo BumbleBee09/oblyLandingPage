@@ -1,3 +1,4 @@
+// import ServiceCard from './Services.jsx'; 
 const Services = () => {
     return (
       <div className="max-w-screen-xl items-center justify-between mx-auto py-4 2xl:px-[1%] xl:px-[10%] lg:px-[10%] md:px-[8%] sm:px-[6%] px-[12%]">

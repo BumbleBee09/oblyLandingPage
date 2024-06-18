@@ -1,0 +1,18 @@
+.bg-software-gradient {
+    background: linear-gradient(to right,#297d9c,#171f23, #151515);
+}
+.bg-uiux-gradient {
+    background: linear-gradient(to right,#171618,#39263b, #924f99);
+}
+.bg-branding-gradient {
+    background: linear-gradient(to right,#25597f,#41356d, #621e46);
+}
+.bg-graphics-gradient {
+    background: linear-gradient(to right,#8e4272,#2c1e27, #151515);
+}
+.bg-data-gradient {
+    background: linear-gradient(to right,#25597f,#41356d, #621e46);
+}
+.bg-security-gradient {
+    background: linear-gradient(to right,#151718,#1f4858, #2c93bb);
+}
