@@ -1,17 +1,18 @@
 import React from 'react'
+import './Services.css';
 
 const Branding = () => {
   return (
-    <div className="flex w-full h-full lg:h-3/5 md:h-2/3 sm:h-3/4 rounded-lg text-white overflow-hidden bg-gradient-to-r from-[#25597f] via-[#41356d] to-[#621e46]">
-    <div className="w-2/3 p-2 flex flex-col justify-center">
+    <div className="flex w-full h-full lg:h-3/5 md:h-2/3 sm:h-3/4 rounded-lg text-white overflow-hidden bg-branding-gradient">
+    <div className="w-2/3 p-[5%] flex flex-col justify-center">
       <div
-        className="w-12 h-12 rounded-full bg-cover bg-center mb-[1%]"
+        className="xl:w-10 xl:h-10 lg:w-8 lg:h-8 h-6 w-6 rounded-full bg-cover bg-center mb-[1%]"
         style={{
-          backgroundImage: "url(path_to_avatar_image_or_icon.png)",
+          backgroundImage: "url(images/branding-avatar.png)",
         }}
       ></div>
       <div className="lg:text-2xl text-xl font-bold mb-[2%]">Branding</div>
-      <div className="lg:text-base mb-[1%]">
+      <div className="lg:text-base md:text-sm text-xs mb-[1%]">
         Ti aiutiamo a creare la tua identita visiva coerente can i tuoi
         obiettivi di business.
       </div>
@@ -25,12 +26,12 @@ const Branding = () => {
     </div>
     <div
       className="w-1/3"
-      // style={{
-      //   backgroundImage: "url(images/branding.png)",
-      //   backgroundSize: "contain",
-      //   backgroundRepeat: "no-repeat",
-      //   backgroundPosition: "right",
-      // }}
+      style={{
+        backgroundImage: "url(images/branding.png)",
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "right",
+      }}
     ></div>
   </div>
   )
